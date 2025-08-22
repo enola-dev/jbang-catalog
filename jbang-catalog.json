@@ -1,0 +1,16 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "enola": {
+      "script-ref": "dev.enola:enola:0.0.1-SNAPSHOT",
+      "repositories": [
+        "https://docs.enola.dev/maven-repo/",
+        "mavencentral",
+        "jitpack"
+      ],
+      "main": "dev.enola.cli.EnolaApplication",
+      "java-agents": []
+    }
+  },
+  "templates": {}
+}
